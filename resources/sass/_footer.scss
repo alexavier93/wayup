@@ -1,0 +1,133 @@
+#footer {
+	background-color: #1aaab7;
+	background-image: url("/assets/images/bg-wayup.png");
+	background-repeat: no-repeat;
+	background-position: 110px;
+	color: #fff;
+
+	&::before {
+		content: "";
+		background-image: url("/assets/images/top-footer.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%;
+		height: 64px;
+		position: absolute;
+		z-index: 9;
+	}
+
+	.footer-top {
+		color: #fff;
+		padding-top: 70px;
+
+		.links {
+			.item-link {
+				margin-top: 20px;
+
+				h2 {
+					font-weight: 600;
+					margin-bottom: 10px;
+					padding: 0;
+				}
+
+				.address {
+					display: flex;
+					flex-wrap: nowrap;
+					align-items: center;
+
+					.address-icon {
+						width: 30px;
+						flex: 0 0 auto;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						margin-right: 10px;
+
+						i {
+							font-size: 25px;
+						}
+					}
+
+					.address-info {
+						font-size: 20px;
+					}
+				}
+
+				.contact {
+					display: flex;
+					flex-wrap: nowrap;
+					align-items: center;
+
+					.contact-icon {
+						width: 30px;
+						flex: 0 0 auto;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						margin-right: 10px;
+
+						i {
+							font-size: 25px;
+						}
+					}
+
+					.contact-info {
+						font-size: 20px;
+					}
+				}
+
+				.form-contato {
+					margin-bottom: 30px;
+
+					form {
+						input {
+							line-height: 32px;
+							border-radius: 10px;
+							border: none;
+							color: #333;
+							font-weight: 700;
+						}
+
+						textarea {
+							border-radius: 10px;
+							border: none;
+							color: #333;
+							font-weight: 700;
+						}
+
+						button {
+							background: #222222;
+							color: #fff;
+							margin: 0;
+							border: 0;
+							border-radius: 10px;
+							font-size: 16px;
+							line-height: 2.8em;
+							padding: 0px 20px;
+						}
+					}
+				}
+
+				.social-midia {
+					a {
+						font-size: 26px;
+						-webkit-transition: 0.5s ease-in-out;
+						-o-transition: 0.5s ease-in-out;
+						transition: 0.5s ease-in-out;
+					}
+				}
+			}
+		}
+	}
+
+	.bottom-footer {
+		background: #222222;
+		color: #fff;
+		height: 100%;
+
+		p {
+			margin: 0;
+			font-size: 14px;
+		}
+	}
+}

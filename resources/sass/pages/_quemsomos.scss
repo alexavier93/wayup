@@ -1,0 +1,44 @@
+#sobre {
+    margin-top: 160px;
+    background: rgb(248, 248, 248);
+    background: linear-gradient(
+        180deg,
+        rgba(248, 248, 248, 1) 1%,
+        rgba(244, 243, 246, 1) 35%,
+        rgba(254, 253, 254, 1) 70%,
+        rgba(255, 255, 255, 1) 100%
+    );
+
+    h2 {
+        color: $primarycolor;
+    }
+
+    .valores {
+        .card {
+            border-radius: 15px;
+            border-color: #eee;
+            min-height: 155px;
+            display: flex;
+            justify-content: center;
+            transition: 0.5s;
+
+            h4 {
+                color: #555;
+                transition: 0.5s;
+            }
+
+            .text {
+                font-family: "Varela Round", sans-serif;
+            }
+
+            &:hover {
+                background-color: #1aaab7;
+                color: #fff;
+
+                h4 {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
